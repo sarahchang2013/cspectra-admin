@@ -7,19 +7,20 @@ from database_setup import Category, Base, Article
 
 
 
-#edit this section and the txt file
-category_of_article = "Animal World"
-embeded_code = 'https://www.youtube.com/embed/tBzgT5godVA'
-title = "Animal Kingdom: Hermit Crabs Wearing EVERYTHING"
-slug = "animal-kingdom-hermit-crabs-wearing-everthing"
+#Edit this section and the txt file
+category_of_article = "Science and Technology"
+embeded_code = 'https://www.youtube.com/embed/2Y7xjAcmQQc'
+title = "Why North Korea's Nuclear Problems are Hard to Resolve"
+slug = "why-north-koreas-nuclear-problems-are-hard-to-resolve"
 
-#text field was set to be nullable, so if no text exists, 
+#Text field was set to be nullable, so if no text exists, 
 #just copy and paste the title in the text file.
-
-#store text in a file and read it
+#Store text in a file and read it
 article_file = open ("new_article.txt", "r")
-#string was utf-8 encoded, so decode it to store in database
+#String was utf-8 encoded, so decode it to store in database
 text=article_file.read().decode('utf-8')
+
+###############Code here, don't edit#################
 
 engine = create_engine(os.environ.get('CSPECTRA_DATABASE_URL'))
 
