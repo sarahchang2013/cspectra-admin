@@ -3,8 +3,9 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database_setup import Category, Base, Article
 
+
 #Edit this section to decide which fields to update
-editTitle = False
+'''editTitle = False
 editSlug = False
 editEmbeded = False
 editText = False
@@ -16,10 +17,18 @@ title = ""
 slug = ""
 article_id = 9
 category_id = 12
+'''
 
 
 
-engine = create_engine(os.environ.get('CSPECTRA_DATABASE_URL'))
+print form["article_id"]+"\n"
+print form["title"]+"\n"
+print form["slug"]+"\n"
+print form["embeded_code"]+"\n"
+print form["category_id"]+"\n"
+print form["text"]+"\n"
+
+'''engine = create_engine(os.environ.get('CSPECTRA_DATABASE_URL'))
 
 # Bind the engine to the metadata of the Base class so that the
 # declaratives can be accessed through a DBSession instance
@@ -50,6 +59,7 @@ if editText:
     article_file = open (slug+".txt", "r")
     #String was utf-8 encoded, so decode it to store in database
     text=article_file.read().decode('utf-8')
+    
     editedArticle.text = text
 if editCategory:
     editedArticle.category_id = category_id
@@ -57,3 +67,4 @@ if editCategory:
 #Must commit the transaction, otherwise the previous operations are not applied.
 session.commit()
 
+'''
