@@ -26,6 +26,19 @@ class Article(Base):
     category_id = Column(Integer, ForeignKey('category.id'))
     category = relationship(Category)
 
+    #Add serialize function for server script, 
+    #won't affect existing database.
+    @property
+    def serialize(self):
+        """Return object data in serialization"""
+        return {
+                "id": self.id,
+                "title": self.title,
+                "slug": self.slug,
+                "url_for_embeded_code": self.embeded_code,
+                "text": self.text,
+                "category_id": self.category_id,
+                }
 
 engine = create_engine(os.environ.get('CSPECTRA_DATABASE_URL'))
 

@@ -18,6 +18,11 @@ def homePage():
 	return render_template('index.html')
 
 
+@app.route('/articles/JSON')
+def articlesJSON():
+	articles = session.query(Article).all()
+	return jsonify(Articles=[i.serialize for i in articles])
+
 @app.route('/add-new-article', methods=['GET','POST'])
 def newArticle():
 	if request.method == 'POST':
