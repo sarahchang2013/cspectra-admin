@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Category, Article
 import os
+from sqlalchemy.sql import exists
 
 app = Flask(__name__)
 
