@@ -139,10 +139,26 @@
     {
       "category_id": 1, 
       "id": 19, 
-      "slug": "marathon-runners-show-why-determinism-is-wrong", 
+      "slug": "belief-in-determinism-makes-more-cheating", 
       "text": "Determinism is a common belief among the general population. Microsoft News even  has a section in the category of lifestyle called \"horoscope\", updated everyday to get more readership.\r\nBut does popularity justify the belief in determinism? Researchers have found out that believing in determinism will increase the rate of cheating. They designed an experiment, allowed people to cheat if they didn\u2019t take active measures to stop it. They then compared the cheating rates between the group that was encouraged to believe in determinism and the group that wasn\u2019t, and found out that the cheating rate in the first group was higher. It is not difficult to understand since the group that believed in determinism would not withdraw from cheating if active measures were required. They would just take it for granted. For example, if someone believes that free will is just an illusion, when he receives extra changes from a cashier, it is more likely for him to keep the extra money than to take the trouble to remind the cashier and return it.  What does this mean? Simply believing in your genetic or environmental advantages will lead you to believe that your previous achievements have little to do with hard work, even if you have actually worked hard. So what happens when you are faced with a more difficult task? You are very likely to fail because you don\u2019t put enough effort into it. \r\n\r\nSo that is why you shouldn\u2019t believe in determinism. Just take some time to review before exams, you\u2019ll get much better grades than to worry about their difficulties.", 
-      "title": "Marathon Runners Show Why Determinism is Wrong", 
+      "title": "Belief in Determinism Makes More Cheating", 
       "url_for_embeded_code": "https://www.youtube.com/embed/H1zXGbeBfVo"
+    }, 
+    {
+      "category_id": 1, 
+      "id": 20, 
+      "slug": "the-evolutionary-advantages-of-baby-fat", 
+      "text": "Our brains are much more advanced than other mammals, we have the ability to use languages, make tools, and live in sophisticated societies. According to the theory of evolution, human beings\u2019 advanced brains are the results of natural selections. But which came up first, a more advanced brain or the survival skills that other mammals don\u2019t have? Since higher abilities require a more advanced brain, scientists believe that it is more probable that humans developed their brains first, with a nutritious diet that makes use of various resources in and near the ocean, such as fishes, eggs, and plants. These resources are easy to get, don\u2019t need the hunting process, and they can supply the nutrients for brain development. But here comes the question: How does this relate to the baby fat?", 
+      "title": "The Evolutionary Advantages of Baby Fat", 
+      "url_for_embeded_code": "https://www.youtube.com/embed/FRKkzczHnuY"
+    }, 
+    {
+      "category_id": 1, 
+      "id": 21, 
+      "slug": "dreams-are-brains-virtual-reality-games", 
+      "text": "Reference: https://www.nature.com/articles/nrn2716\r\nPDF version:http://www.doaks.org/research/byzantine/scholarly-activities/byzantine-studies-fall-workshop/naturepaper09.pdf\r\nExternal images used in this video are from wikimedia commons. {{PD-US}} \r\nHave you ever wondered when the VR headsets can get more comfortable? I mean, yes, they are getting thinner and lighter, but after several hours of wearing them, it\u2019s still easy to feel eye strain. And the LCD displays of the headsets are just too glaring. Anyway, nowadays VR games are getting more and more popular. But wouldn\u2019t it be better to play VR games without a dumb headset? Turns out our brains have their own VR gaming systems, and we can play them every night. Scientists have found out that what we do in our dreams is exactly like playing virtual reality games, and it has connections with consciousness.\r\n\r\nResearch shows that during the REM sleep, which is short for rapid eye movement, dreams mainly show the features of primary consciousness, which includes perception and emotion. Scientists consider REM sleep a brain state which can be analyzed with techniques such as EEG and MRI, while \u201cdream\u201d is the information of what the brain does during REM sleep, often reported by the dreamer.  Human beings have a large amount of REM sleep before birth and in the first year after birth, it decreases afterwards as waking time and cognitive abilities increase,  but still remains about 1.5 hours per day in adult life. This suggests that REM sleep contributes a lot to the early brain-mind maintenance, and helps maintain the brain functions throughout life. Indeed, scientists have carried out experiments on rats, and found out that sleep-deprived rats lost weight and control of body temperature, and eventually died. Research also shows that the main function of dreams may not be just recollecting the dreamer\u2019s past. It is possible that the brain is preparing itself for its functions in future waking states, which is just like pilots practicing flights in a simulator before flying a real plane. ", 
+      "title": "Dreams Are Brains' Virtual Reality Games", 
+      "url_for_embeded_code": "https://www.youtube.com/embed/SEAocdSoTsY"
     }
   ]
 }
